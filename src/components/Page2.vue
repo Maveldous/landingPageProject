@@ -10,7 +10,7 @@
                 <a class="textRef" href="#">«Русское лото»</a> — это всероссийская государственная лотерея, напоминающая народную игру в лото. С момента появления лотереи в XVI веке в Италии правила существенно не изменились: в современном лото тоже не нужно придерживаться стратегий и просчитывать ходы. Прелесть игры в полном доверии случаю, низкой стоимости билета и возможности получить гораздо больше, чем поставлено на кон.<br><br>
                 В этом году лотерее исполнится 25 лет. Первый выпуск «Русского лото» состоялся 16 октября 1994  года. Всё это время её бессменно ведёт Михаил Борисов — тот самый жизнерадостный мужчина с седыми усами в жилетке, которого вы видели по телевизору.
             </p>
-            <img class="section__wrapper-img" src="../assets/firstBlock__img.png" alt="Pic Mihail Borisov">
+            <img class="section__wrapper-img" src="../assets/images/firstBlock__img.png" alt="Pic Mihail Borisov">
             <p class="section__wrapper-text">
                 Михаил Борисов никогда не был просто харизматичным ведущим. С первого выпуска он выступал настоящим идеологом лотереи и отвечал за концепцию программы. Именно он придумал сделать из игры культурно-развлекательную семейную передачу. В программу приглашали выступать известных и начинающих звёзд, разыгрывали сценки, рассказывали об исторических событиях, связанных с номером тиража. А ещё Михаил Борисов не пропустил ни одного выпуска за 25 лет.
                 <br><br><br>
@@ -35,56 +35,10 @@ export default {
     return {
 
     }
-  },
-  props: {
-    
   }
 };
 </script>
 
 <style lang="scss">
 
-    .section__wrapper-titleMain{
-        font-size: 48px;
-        color: #000;
-        padding: 13px 0 33px;
-    }
-
-    .section__wrapper-title{
-        font-size: 36px;
-        color: #040404;
-    }
-
-    .section__wrapper-strongText{
-        font-size: 20px;
-        padding-bottom: 40px;
-    }
-
-    .section__wrapper-text{
-        color: #424242;
-    }
-
-    .section__wrapper-img{
-        margin: 50px 0;
-        width: 100%;
-    }
-
-    .section__wrapper-textLine{
-        position: relative;
-        padding-left: 50px;
-        margin: 30px 0 10px;
-        &::before{
-            position: absolute;
-            content: '';
-            width: 0px;
-            height: 100%;
-            border: 2px solid #ED5E42;
-            left: 0;
-        }
-    }
-    .section__wrapper-textLineAdd{
-        color: #000;
-        padding-left: 50px;
-        margin-bottom: 30px;
-    }
 </style>

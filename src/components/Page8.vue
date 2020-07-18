@@ -3,7 +3,7 @@
   <section class="section">
       <div class="section__wrapper">
             <h3 class="section__wrapper-title">Как получить выигрыш</h3>
-            <img class="section__wrapper-img" src="../assets/seventhBlock__img.png" alt="Pic with ticket window">
+            <img class="section__wrapper-img" src="../assets/images/seventhBlock__img.png" alt="Pic with ticket window">
             <p class="section__wrapper-text">
                 Чтобы получить выигрыш, нужно предъявить паспорт и лотерейный билет. Забрать приз можно в течение шести месяцев после обращения за выигрышем и подачей заявления.
                 <br><br>
@@ -16,16 +16,22 @@
             <p class="section__wrapper-textCircle wallet">
                 <strong>Перевести на баланс кошелька «Столото» — до 100 000 рублей </strong>
                 <br>
+            </p>
+            <p class="section__wrapper-textCircle2">
                 Этот вариант подойдёт, если вы указали номер телефона при покупке. Зарегистрируйтесь на сайте с этим номером и выберите «Перевести выигрыш в кошелёк» на странице информации о билете. Эти деньги можно использовать для покупки новых билетов.
             </p>
             <p class="section__wrapper-textCircle store">
                 <strong>Забрать в точке продаж — до 2 000 рублей </strong>
                 <br>
+            </p>
+            <p class="section__wrapper-textCircle2">
                 Чтобы найти подходящую точку, нужно выбрать на странице с <a class="textRef" href="#">картой</a> «Столото» пункт «Получить выигрыш» и ввести сумму выигрыша.
             </p>
             <p class="section__wrapper-textCircle doc">
                 <strong>Перевести на лицевой счёт — от 100 000 рублей </strong>
                 <br>
+            </p>
+            <p class="section__wrapper-textCircle2">
                 Для получения выигрыша нужно предоставить комплект документов и реквизиты счёта. Подробности — на <a class="textRef" href="#">сайте «Столото»</a>.
             </p>
             <p class="section__wrapper-textCircle coins">
@@ -53,22 +59,19 @@ export default {
     return {
 
     }
-  },
-  props: {
-    
   }
 };
 </script>
 
 <style lang="scss">
     .section__wrapper-textCircle.wallet::after{
-        background: url('../assets/seventhBlock__walleticon.png') center no-repeat ;
+        background: url('../assets/images/seventhBlock__walleticon.png') center no-repeat ;
     }
     .section__wrapper-textCircle.doc::after{
-        background: url('../assets/seventhBlock__docicon.png') center no-repeat ;
+        background: url('../assets/images/seventhBlock__docicon.png') center no-repeat ;
     }
     .section__wrapper-textCircle.coins::after{
-        background: url('../assets/seventhBlock__coinsicon.png') center no-repeat ;
+        background: url('../assets/images/seventhBlock__coinsicon.png') center no-repeat ;
     }
     .section__wrapper-text.bigline{
         position: relative;
@@ -81,9 +84,7 @@ export default {
             transform: translateX(50%);
             width: 100%;
             height: 50px;
-            background: #ED5E42;
+            background: $mainColor;
         }
     }
-
-    
 </style>

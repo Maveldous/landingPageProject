@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$refsColor: #3670F9;
+$greyText: #9197A3;
+$mainColor: #ED5E42;
+
+h1,h2,h3,h4,h5,h6,p,li,ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+body{
+    font-family: Roboto;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}

@@ -3,7 +3,7 @@
   <section class="section">
       <div class="section__wrapper">
             <h3 class="section__wrapper-title">Как играть</h3>
-            <img class="section__wrapper-img" src="../assets/fourthBlock__img.png" alt="Pic with ticket window">
+            <img class="section__wrapper-img" src="../assets/images/fourthBlock__img.png" alt="Pic with ticket window">
             <p class="section__wrapper-text">
                 «Русское лото» снимается в студии со зрителями и специальной комиссией, которая проверяет количество бочонков в мешке перед розыгрышем и следит, чтобы он был проведён по всем правилам. Комплект бочонков хранится в сейфе. К ним могут прикасаться только ведущие, приглашённый гость и служба безопасности.
                 <br><br>
@@ -22,11 +22,8 @@ export default {
     return {
 
     }
-  },
-  props: {
-    
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

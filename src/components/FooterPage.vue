@@ -25,7 +25,7 @@ export default {
         align-items: center;
         margin-top: 95px;
         background: #000;
-        .footer__title{
+        &__title{
             margin: 20px 50px;
             font-size: 16px;
             color: #fff;
